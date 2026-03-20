@@ -30,7 +30,7 @@ for name, score in students:
 average = total / len(students)
 
 print("------------------")
-print(f"平均点: {average}")
+print(f"平均点: {average:.2f}")
 
 print("------------------")
 print("合格者一覧")
